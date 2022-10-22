@@ -11,7 +11,7 @@ function IndexPage({ data }) {
     return (
       <Error
         title={
-          <Link href="http://localhost:3333/studio/desk/pages;homePage">
+          <Link href="https://fulong-test.vercel.app/studio/desk/pages;homePage">
             <a target="_blank">Go settings</a>
           </Link>
         }

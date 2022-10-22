@@ -5,8 +5,13 @@ export default function TemplateHome({ page, site }) {
     <>
       <div className="page-content template-home">
         <div className="context">
-          <h1>View Source Home</h1>
+          <h1>View Source Home - Vercel Test Site</h1>
           <p>{pageHeading}</p>
+          <h2>
+            <a href="https://fulong-test.vercel.app/studio/desk/pages;homePage">
+              Sanity後台
+            </a>
+          </h2>
         </div>
       </div>
       <style jsx>{`
