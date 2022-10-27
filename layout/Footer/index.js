@@ -37,7 +37,7 @@ const Footer = forwardRef(function Footer(props, ref) {
             transition={domTransitionAnim.transition}
             variants={domTransitionAnim}
           >
-            <div className="main-footer bg-subdued">
+            <div className="main-footer">
               {data?.blocks &&
                 data.blocks.map((block, key) => (
                   <div key={key} className="footer--block">

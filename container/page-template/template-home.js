@@ -3,10 +3,9 @@ export default function TemplateHome({ page, site }) {
 
   return (
     <>
-      <div className="page-content template-home">
+      <div className="template-home holding-page">
         <div className="context">
-          <h1>View Source Home - Vercel Test Site</h1>
-          <p>{pageHeading}</p>
+          <h1>OUR WEBSITE IS CURRENTLY UNDER CONSTRUCTION</h1>
           <h2>
             <a href="https://fulong-test.vercel.app/studio/desk/pages;homePage">
               Sanity後台
@@ -18,8 +17,35 @@ export default function TemplateHome({ page, site }) {
         .template-home {
           text-align: center;
         }
+
+        .holding-page{
+          position: fixed;
+          color: var(--cr-black);
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+
         .context {
-          margin: var(--s-section) 0 0;
+          color: #FFFFFF;
+          h1{
+            font-family: 'G0';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            text-transform: uppercase;
+          }
+
+          h2{
+            margin-top:15px;
+            font-family: 'G0';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+          }
+          
         }
       `}</style>
     </>

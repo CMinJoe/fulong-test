@@ -135,6 +135,12 @@ body {
   font: var(--t-b-2);
   line-height: 1;
   -webkit-font-smoothing: subpixel-antialiased;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  background-image: url(../../public/shipbackground.JPG);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size:cover;
 }
 
 h1,

@@ -115,16 +115,16 @@ function Header({ data }) {
     <>
       <header ref={headerRef} className="global-header">
         <div
-          className={cx('main-header f-h f-a-c c', {
+          className={cx('main-header f-h f-j-c c', {
             'is-open': isMobileMenuOpen,
           })}
         >
           <BrandLogo />
-          {windows.width < theme.layout.mediaSmall
+          {/* {windows.width < theme.layout.mediaSmall
             ? mobileMenuTriggerDOM
             : data?.menuDesktop?.items && (
                 <Menu items={data.menuDesktop.items} />
-              )}
+              )} */}
         </div>
       </header>
       {data?.menuMobilePrimary && (
@@ -143,7 +143,6 @@ function Header({ data }) {
           right: 0;
           width: 100%;
           z-index: 99;
-          background-color: var(--cr-white);
           transition: background-color 300ms ease-in 0s;
           box-shadow: 1px 1px 10px -2px var(--cr-gray);
           padding: var(--s-1) 0;
